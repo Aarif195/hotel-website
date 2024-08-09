@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {}
+
+nav {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  margin-left: 20px;
+  /* font-size: 20px; */
+}
+
+ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+li a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  /* background-color: red; */
+  color: #f7c88a;
+}
+
+h1,
+h2,
+p {
+  padding-bottom: 20px;
+}
+
+.showcase {
+  /* background-color: aqua; */
+  background-image: url('../hotel-image/home-img-jpg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.showcase-content {
+  text-align: center;
+  padding-top: 170px;
+  color: white;
+}
+
+.showcase .showcase-content span {
+  color: #f7c88a;
+}
+
+.showcase-content h1 {
+  font-size: 40px;
+}
+
+.showcase-content p {
+  font-size: 20px;
+}
+
+
+.showcase-content button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  font-size: 15px;
+}
+
+/* main */
+main {
+  color: white;
+  height: 400px;
+  display: flex;
+}
+
+main img {
+  width: 50%;
+height: 550px;
+  /* min-height: 100%; */
+}
+
+.home-history {
+  background-color: black;
+  width: 50%;
+  height: 550px;
+  /* height: 190%; */
+  /* float: right; */
+  text-align: center;
+  padding: 75px 25px;
+}
+.btn:hover{
+  color: #f7c88a;
+}
+.hotel-history {
+  color: #f7c88a;
+}
+
+.main-history {
+  background-color: black;
+}
+.home-history p {
+  line-height: 1.5;
+}
+
+.home-history a{
+  display: inline-block;
+  background-color: #fff;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.home-history a:hover{
+  color: #f7c88a;
+}
+section{
+  height: 400px;
+  /* padding-top: 70px; */
+  margin-top: 130px;
+}
+.box{
+  /* background-color: red; */
+  width: 33.3%;
+  min-height: 100px;
+  float: left;
+  text-align: center;
+  padding: 25px;
+}
+.fork{
+  background-color: #f7c88a;
+}
+.box p {
+  line-height: 1.5;
+}
+ i{
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768) {
+nav {
+  display: none;
+}
+nav ul li{
+display: block;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
