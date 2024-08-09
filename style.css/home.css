@@ -82,28 +82,30 @@ p {
 /* main */
 main {
   color: white;
-  height: 400px;
+  height: 450px;
   display: flex;
 }
 
 main img {
   width: 50%;
-height: 550px;
+  min-height: 400px;
   /* min-height: 100%; */
 }
 
 .home-history {
   background-color: black;
   width: 50%;
-  height: 550px;
+  min-height: 450px;
   /* height: 190%; */
   /* float: right; */
   text-align: center;
   padding: 75px 25px;
 }
-.btn:hover{
+
+.btn:hover {
   color: #f7c88a;
 }
+
 .hotel-history {
   color: #f7c88a;
 }
@@ -111,26 +113,30 @@ height: 550px;
 .main-history {
   background-color: black;
 }
+
 .home-history p {
   line-height: 1.5;
 }
 
-.home-history a{
+.home-history a {
   display: inline-block;
   background-color: #fff;
   color: black;
   padding: 10px 15px;
   text-decoration: none;
 }
-.home-history a:hover{
+
+.home-history a:hover {
   color: #f7c88a;
 }
-section{
-  height: 400px;
-  /* padding-top: 70px; */
-  margin-top: 130px;
+
+section {
+  min-height: 400px;
+  /* padding-top: 5px; */
+  /* margin-top: 130px; */
 }
-.box{
+
+.box {
   /* background-color: red; */
   width: 33.3%;
   min-height: 100px;
@@ -138,47 +144,76 @@ section{
   text-align: center;
   padding: 25px;
 }
-.fork{
+
+.fork {
   background-color: #f7c88a;
 }
+
 .box p {
   line-height: 1.5;
 }
- i{
+
+i {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768) {
+
+
+/* mobile design */
+@media (max-width:768px) {
 nav {
-  display: none;
+  flex-direction: column;
+  /* padding-left: 40px; */
+  align-items: center;
 }
-nav ul li{
-display: block;
+.showcase{
+  height: 300px;
+}
+nav h1{
+  font-size: 25px;
+}
+nav ul li a{
+  font-size: 25px;
 }
 
-.col{
-  display: flex;
+main {
+  flex-direction: column;
+  
+}
+main img, .home-history {
+  width: 100%;
+  /* height: 10px; */
+  min-height: 310px;
+}
+
+.home-history{
+  min-height: 370px;
+  padding: 45px 10px;
+}
+
+section{
   flex-direction: column;
 }
+
+.showcase-content {
+  padding-top: 40px;
+  text-align: center;
+  align-items: center;
 }
 
+section{
+  min-height: 600px;
+  margin-top: 40%;
+  /* padding-top: 40px; */
 
+}
 
+.box {
+  /* min-width: 200px; */
+  width: 100%;
+  /* padding-top: 40px; */
+  /* margin-top: 50px; */
+  float: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

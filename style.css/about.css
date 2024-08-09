@@ -1,8 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 header {}
 
 nav {
@@ -30,76 +31,118 @@ li a {
   padding: 10px;
   font-size: 20px;
 }
-.py, .py-1{
+
+.py,
+.py-1 {
   padding: 20px 50px;
 }
+
 nav ul li a:hover {
   /* background-color: red; */
   color: #f7c88a;
 }
+
 h1,
 h2,
 p {
   padding-bottom: 20px;
 }
-.hotel-BT{
+
+.hotel-BT {
   display: flex;
 }
-.about-hotel{
+
+.about-hotel {
   color: #f7c88a;
 }
-.about{
+
+.about {
   width: 50%;
   min-height: 100px;
   /* float: left; */
   /* background-color: red; */
 }
-.about h1{
+
+.about h1 {
   font-size: 30px;
 }
+
 .about p {
   line-height: 1.5;
 }
-.abt-image img{
-border-radius: 50%;
-width: 50%;
+
+.abt-image img {
+  border-radius: 50%;
+  width: 50%;
 }
-.abt-image{
+
+.abt-image {
   min-height: 100px;
- width: 70%;
- display: block;
- /* float: right; */
- 
+  width: 70%;
+  display: block;
+  /* float: right; */
+
 }
+
 /* stauing on eachother */
-.guest{
-text-align: center;
-background: url(../hotel-image/secon-abt-images.jpeg) no-repeat center center/cover;
-height: 500px;
-padding-top: 40px;
+.guest {
+  text-align: center;
+  background: url(../hotel-image/secon-abt-images.jpeg) no-repeat center center/cover;
+  height: 500px;
+  padding-top: 40px;
 }
-.guest h1{
+
+.guest h1 {
   color: white;
   padding-bottom: 40px;
   font-size: 30px;
 }
-.guest-image{
+
+.guest-image {
   background: #f7c88a;
   margin-top: 20px;
   border-radius: 5px;
 
   /* max-width: 80%; */
 }
-.girl{
+
+.girl {
   padding: 30px;
   margin-bottom: 20px;
   opacity: 0.7;
 }
+
 .girl img {
-width: 50px;
-/* height: 50px; */
-border-radius: 50%;
-float: left;
-margin-right: 20px;
+  width: 50px;
+  /* height: 50px; */
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
 }
 
+/* mobile design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.hotel-BT{
+  flex-direction: column;
+}
+
+.about{
+  width: 100%;
+}
+
+.abt-image{
+  margin-bottom: 30px;
+  
+}
+.py-1 img{
+  min-height: 250px;
+  width: 90%;
+  margin-bottom: 20px;
+
+}
+}
