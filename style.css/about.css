@@ -90,6 +90,10 @@ p {
   background: url(../hotel-image/secon-abt-images.jpeg) no-repeat center center/cover;
   height: 500px;
   padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .guest h1 {
@@ -100,10 +104,18 @@ p {
 
 .guest-image {
   background: #f7c88a;
+  width: 90%;
   margin-top: 20px;
   border-radius: 5px;
-
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
   /* max-width: 80%; */
+}
+
+.guest-image p {
+  /* width: 90%; */
 }
 
 .girl {
@@ -114,10 +126,9 @@ p {
 
 .girl img {
   width: 50px;
-  /* height: 50px; */
+  height: 50px;
   border-radius: 50%;
-  float: left;
-  margin-right: 20px;
+
 }
 
 /* mobile design */
@@ -126,6 +137,11 @@ p {
     flex-direction: column;
     align-items: center;
   }
+
+.guest {
+  min-height: 600px;
+  /* height: auto; */
+}
 
 .hotel-BT{
   flex-direction: column;

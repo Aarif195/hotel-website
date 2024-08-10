@@ -19,7 +19,11 @@ nav h1 {
   /* font-size: 20px; */
 }
 
-ul li {
+nav ul li {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
   display: inline;
   margin-right: 30px;
 }
@@ -44,17 +48,21 @@ p {
 }
 
 .showcase {
-  /* background-color: aqua; */
   background-image: url('../hotel-image/home-img-jpg.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  object-fit: cover;
+  height: 70vh;
+
 }
 
 .showcase-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding-top: 170px;
-  color: white;
+  height: 100%;
 }
 
 .showcase .showcase-content span {
@@ -84,20 +92,22 @@ main {
   color: white;
   height: 450px;
   display: flex;
+  /* flex-wrap: wrap; */
+  flex: 25%;
 }
 
 main img {
   width: 50%;
-  min-height: 400px;
+  height: 100%;
+  object-fit: cover;
   /* min-height: 100%; */
 }
 
 .home-history {
   background-color: black;
   width: 50%;
-  min-height: 450px;
-  /* height: 190%; */
-  /* float: right; */
+  /* min-height: 450px; */
+  /* height: 100%; */
   text-align: center;
   padding: 75px 25px;
 }
@@ -167,32 +177,38 @@ nav {
   align-items: center;
 }
 .showcase{
-  height: 300px;
+  height: auto;
 }
 nav h1{
   font-size: 25px;
 }
 nav ul li a{
   font-size: 25px;
+  /* display: block; */
 }
 
 main {
   flex-direction: column;
-  
+  height: auto;
 }
+
 main img, .home-history {
   width: 100%;
   /* height: 10px; */
-  min-height: 310px;
+  /* min-height: 310px; */
 }
 
 .home-history{
-  min-height: 370px;
+  /* min-height: 370px; */
+  height: auto;
   padding: 45px 10px;
 }
 
 section{
   flex-direction: column;
+  min-height: 600px;
+  /* padding-top: 50%; */
+  /* margin-top: 50%; */
 }
 
 .showcase-content {
@@ -201,18 +217,15 @@ section{
   align-items: center;
 }
 
-section{
+/* section{
   min-height: 600px;
-  margin-top: 40%;
-  /* padding-top: 40px; */
+  margin-top: 100%;
+  padding-top: 40px;
 
-}
+} */
 
 .box {
-  /* min-width: 200px; */
   width: 100%;
-  /* padding-top: 40px; */
-  /* margin-top: 50px; */
   float: none;
 }
 

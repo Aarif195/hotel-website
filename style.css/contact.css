@@ -56,17 +56,14 @@ div {
   padding-top: 10px;
 }
 
-input {
-  width: 100%;
+input, textarea {
+  width: 70%;
   border: #ddd solid;
 }
-
-input:focus {}
-
-textarea {
-  width: 100%;
-  border: #ddd solid;
+input:focus:hover {
+  outline-color: #f7c88a;
 }
+
 
 button {
   display: inline-block;
@@ -120,7 +117,6 @@ i {
 
  .last {
 height: 600px;
-  
 
 }
 .box {
