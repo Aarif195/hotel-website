@@ -15,20 +15,6 @@ nav {
 }
 
 nav h1 {
-  margin-left: 20px;
-  /* font-size: 20px; */
-}
-
-ul li {
-  display: inline;
-  margin-right: 30px;
-}
-
-li a {
-  color: #fff;
-  list-style: none;
-  text-decoration: none;
-  padding: 10px;
   font-size: 20px;
 }
 
@@ -37,9 +23,26 @@ li a {
   padding: 20px 50px;
 }
 
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  list-style-type: none;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
 nav ul li a:hover {
   /* background-color: red; */
-  color: #f7c88a;
+  /* color: #f7c88a; */
+  border-bottom: 2px solid #f7c88a;
+
 }
 
 h1,
@@ -138,6 +141,26 @@ p {
     align-items: center;
   }
 
+nav h1{
+  /* text-align: center; */
+  font-size: 35px;
+  color: peru;
+
+}
+
+  .navbar ul {
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* gap: 1rem; */
+    
+  }
+
+  .navbar ul li a{
+    font-size: 20px;
+    color: peru;
+  
+  }
+
 .guest {
   min-height: 680px;
   /* height: auto; */
@@ -157,8 +180,8 @@ p {
 }
 .py-1 img{
   min-height: 250px;
-  width: 90%;
-  margin-bottom: 20px;
-
+  width: 100%;
+margin: 0 auto;
+display: block;
 }
 }

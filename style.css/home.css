@@ -12,6 +12,7 @@ nav {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 
 nav h1 {
@@ -19,27 +20,28 @@ nav h1 {
   /* font-size: 20px; */
 }
 
-nav ul li {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; */
-  display: inline;
-  margin-right: 30px;
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  list-style-type: none;
+
 }
 
-li a {
-  color: #fff;
-  list-style: none;
+.navbar ul li a {
   text-decoration: none;
-  padding: 10px;
+  color: #fff;
   font-size: 20px;
 }
 
 nav ul li a:hover {
   /* background-color: red; */
-  color: #f7c88a;
+  /* color: #f7c88a; */
+  border-bottom: 2px solid #f7c88a;
 }
+
+
 
 h1,
 h2,
@@ -173,18 +175,32 @@ i {
 @media (max-width:768px) {
 nav {
   flex-direction: column;
-  /* padding-left: 40px; */
   align-items: center;
+
 }
+
+.navbar ul {
+  /* flex-direction: column;
+  gap: 1rem;
+  margin-left: 10px;
+  align-items: center; */
+}
+
+
+nav h1{
+  color: peru;
+
+  text-align: center;
+  font-size: 35px;
+}
+
+.navbar ul li a{
+  font-size: 20px;
+  color: peru;
+}
+
 .showcase{
   height: auto;
-}
-nav h1{
-  font-size: 25px;
-}
-nav ul li a{
-  font-size: 25px;
-  /* display: block; */
 }
 
 main {
