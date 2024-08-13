@@ -8,11 +8,12 @@
 }
 
 
-body{
+body {
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
 
 }
+
 nav {
   background-color: black;
   color: #fff;
@@ -21,7 +22,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  
+
 }
 
 nav h4 {
@@ -74,10 +75,12 @@ p {
   padding-top: 20px;
 }
 
-input, textarea {
+input,
+textarea {
   width: 70%;
   border: #ddd solid;
 }
+
 input:focus:hover {
   outline-color: #f7c88a;
 }
@@ -130,8 +133,9 @@ i {
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
+    row-gap: 1.5rem;
     align-items: center;
-    
+
   }
 
   .navbar ul {
@@ -141,25 +145,27 @@ i {
     /* align-items: center; */
   }
 
-  nav h4{
+  nav h4 {
     text-align: center;
     font-size: 35px;
     color: peru;
+    margin-left: -3px;
   }
 
-  .navbar ul li a{
+  .navbar ul li a {
     font-size: 20px;
     color: peru;
-  
+
   }
 
- .last {
-height: 600px;
+  .last {
+    height: 600px;
 
-}
-.box {
-  float: none;
-  width: 100%;
-}
+  }
+
+  .box {
+    float: none;
+    width: 100%;
+  }
 
 }

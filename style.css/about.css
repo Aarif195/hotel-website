@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
 
@@ -120,10 +120,10 @@ p {
   width: 90%;
   margin-top: 20px;
   border-radius: 5px;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   /* max-width: 80%; */
 }
 
@@ -148,50 +148,52 @@ p {
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
+    row-gap: 1.5rem;
     align-items: center;
   }
 
-nav h3{
-  /* text-align: center; */
-  font-size: 35px;
-  color: peru;
-
-}
+  nav h3 {
+    /* text-align: center; */
+    font-size: 35px;
+    color: peru;
+    margin-left: -3px;
+  }
 
   .navbar ul {
     /* flex-direction: column; */
     /* justify-content: center; */
     /* gap: 1rem; */
-    
+
   }
 
-  .navbar ul li a{
+  .navbar ul li a {
     font-size: 20px;
     color: peru;
-  
+
   }
 
-.guest {
-  min-height: 680px;
-  /* height: auto; */
-}
+  .guest {
+    min-height: 680px;
+    /* height: auto; */
+  }
 
-.hotel-BT{
-  flex-direction: column;
-}
+  .hotel-BT {
+    flex-direction: column;
+  }
 
-.about{
-  width: 100%;
-}
+  .about {
+    width: 100%;
+  }
 
-.abt-image{
-  margin-bottom: 30px;
-  
-}
-.py-1 img{
-  min-height: 250px;
-  width: 100%;
-margin: 0 auto;
-display: block;
-}
+  .abt-image {
+    margin-bottom: 30px;
+
+  }
+
+  .py-1 img {
+    min-height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
 }
