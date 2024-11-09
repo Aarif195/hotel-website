@@ -99,8 +99,9 @@ p {
 
 /* stauing on eachother */
 .guest {
-  text-align: center;
-  background: url(../hotel-image/secon-abt-images.jpeg) no-repeat center center/cover;
+  background: url('../hotel-image/hotel-3.jpg') no-repeat center center/cover;
+  /* text-align: center; */
+  /* background: url(../hotel-image/secon-abt-images.jpeg) no-repeat center center/cover; */
   height: 500px;
   padding-top: 40px;
   display: flex;
@@ -112,7 +113,7 @@ p {
 .guest h1 {
   color: white;
   padding-bottom: 40px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .guest-image {

@@ -60,7 +60,8 @@ p {
 }
 
 .showcase {
-  background-image: url('../hotel-image/home-img-jpg.jpeg');
+background-image: url('../hotel-image/hotel-2.jpg');
+  /* background-image: url('../hotel-image/home-img-jpg.jpeg'); */
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
